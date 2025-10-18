@@ -3,10 +3,6 @@
 
 A ETL utility that parses Twitter's ad-impressions.js JSON and loads ad impression records into a SQLite database using Python.
 
-Files
-- [load_ad_json.py](load_ad_json.py)
-- [README.md](README.md)
-
 Important functions
 - [`load_ad_json.load_json_from_js`](load_ad_json.py) — read and extract JSON payload from an ad-impressions.js file.
 - [`load_ad_json.populate_db`](load_ad_json.py) — open SQLite DB and drive insertion.
